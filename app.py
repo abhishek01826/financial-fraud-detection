@@ -5,6 +5,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+import streamlit as st
+
+PORT = int(os.environ.get("PORT", 8501))
 
 # ================= BASE =================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
