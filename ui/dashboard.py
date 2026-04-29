@@ -53,7 +53,7 @@ def safe_float(val):
 # ================= MAIN DASHBOARD =================
 def run_dashboard():
     root = tk.Tk()
-    root.title("🚀 AI Fraud Intelligence System")
+    root.title("Financial Froud Detection System")
     root.geometry("1200x750")
     root.configure(bg="#1e1e2f")
 
